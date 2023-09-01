@@ -1,1 +1,16 @@
 # Simple_Java_Project3
+QUESTION 1 - What you need to do in this question is to take a string as input from the user and calculate the different palindrome words in this string and print it on the screen. You should then print the length of the longest and shortest palindrome. However, sometimes the wrong characters can be printed because you poured cool lime on your keyboard. While you are entering the input, sometimes a random number can be printed after the vowels, and sometimes it is not. Here you need to distinguish between numbers that are actually in the sentence and those that are printed extra. Here you can assume: If there is 1 digit after a vowel, it is an incorrect entry. But if there is more than one digit, there is no wrong digit entry here. For example, “a5” should actually be a, while “a456” is a456. After getting rid of the wrong numbers in the sentence, you need to calculate how many different palindromes are in this sentence and print them on the screen. Then you should print the length of the longest and shortest palindrome in the sentence.
+Note:
+● When calculating palindrome, do not pay attention to capitalization. For example, Efe is a palindrome.
+● Do not include punctuation marks in words that correspond to the end of the sentence. For example, Ece. You should only get Ece in the section!
+● You can assume that punctuation marks will only be at the end of the sentence. For example, “1.” means first. will never be entered. The punctuation marks to be used will be period (.), question mark (?), and exclamation point (!).
+● There is at least one space between the words in the sentence. Punctuation marks at the end of the sentence are adjacent to the previous word and there is at least one space between it and the first word of the next sentence.
+● Do not count if the same palindrome occurs twice. In the example below, Artificial and artificial should be considered the same (that is, they should be evaluated without distinction of case).
+● If the longest and shortest palindrome lengths are equal, you can print any one.
+
+QUESTION 2 - Unfortunately, you still could not solve the problem with your keyboard. There is no doubt that you will be very careful when drinking a cool lime again. However, there is another problem that you need to solve. Your keyboard inserts random letters in between when entering numbers. But you just want to enter an input consisting of numbers and finally print the largest and smallest number on the screen. The main problem here is that sometimes even letters can be entered instead of space characters. For example, in the following example input 907z123 text z has replaced a space. But actually the numbers are 907 and 123. If the user has entered 1 after the number 7, you can understand that the letter in between always replaces a space. For example, the number in the text “897v92” should be 89792. What you need to do is to get rid of the letters, then print the largest and smallest number on the screen.
+
+Note:
+● You can assume that the numbers will always be positive.
+● In this question, you are not allowed to use the Integer.parseInt() method and its derivatives (such as parseDouble), and to use the replaceAll() method. Apart from these, you can use the methods you see in the lesson.
+● You can assume that the numbers in the sentence are separated by a space.
